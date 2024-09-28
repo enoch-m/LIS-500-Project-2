@@ -1,0 +1,86 @@
+/* Color Palette
+#F4FAFF - Alice Blue
+#DEE7E7 - Platunum
+#4F646F - Payne's gray
+#535657 - Davy's gray
+*/
+
+/* Global styles
+---------------------------- */
+header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #4F646F;
+    color: #F4FAFF;
+}
+
+header a {
+    padding: 10px;
+    color: #DEE7E7;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+body {
+    background: #F4FAFF;
+    color: #535657;
+}
+
+/* Splash Page
+---------------------------- */
+.Splash-index {
+    font-size: 35px;
+    text-align: center;
+}
+
+.Splash-img {
+    margin-top: 50px;
+    border-radius: 35%;
+}
+
+#description {
+    font-size: 40px;
+}
+
+/* About Enoch
+---------------------------- */
+#EnochName {
+    font-size: 25px;
+}
+
+.EnochProfile-img {
+    width: 170px;
+    border-radius: 30%;
+}
+
+/* About Alisa
+---------------------------- */
+#AlisaName {
+    font-size: 40px;
+}
+
+.AlisaProfile-img {
+    margin-top: 10px;
+    width: 275px;
+    border-radius: 30%;
+}
+
+.Alisa {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.Alisa p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Resources
+---------------------------- */
+
+/* Tech Heros
+---------------------------- */
