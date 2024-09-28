@@ -81,6 +81,27 @@ body {
 
 /* Resources
 ---------------------------- */
+.Resource {
+    overflow: auto;
+}
+.Resource h1 {
+    font-size: 30px;
+}
+.Resource p {
+    font-size: 30px;
+}
+.col-left {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+    padding-left: 15px;
+}
+.col-right {
+    width: 66%;
+    float: left;
+    min-height: 175px;
+    padding-left: 15px;
+}
 
 /* Tech Heros
 ---------------------------- */
