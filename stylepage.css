@@ -34,6 +34,7 @@ body {
 .Splash-index {
     font-size: 35px;
     text-align: center;
+    margin: 40px;
 }
 
 .Splash-img {
@@ -45,15 +46,33 @@ body {
     font-size: 40px;
 }
 
+#welcome {
+    font-size: 25px
+}
+
 /* About Enoch
 ---------------------------- */
 #EnochName {
     font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
 }
 
 .EnochProfile-img {
-    width: 170px;
+    width: 200px;
     border-radius: 30%;
+}
+
+.Enoch {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Enoch p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* About Alisa
@@ -84,18 +103,22 @@ body {
 .Resource {
     overflow: auto;
 }
+
 .Resource h1 {
     font-size: 30px;
 }
+
 .Resource p {
     font-size: 30px;
 }
+
 .col-left {
     width: 30%;
     float: left;
     min-height: 175px;
     padding-left: 15px;
 }
+
 .col-right {
     width: 66%;
     float: left;
@@ -105,3 +128,36 @@ body {
 
 /* Tech Heros
 ---------------------------- */
+.LannySmoot p,
+.MarquesBrownlee p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.LannySmoot {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.LannySmoot-img {
+    margin: 20px;
+    width: 400px;
+    border-radius: 30%;
+}
+
+.MarquesBrownlee {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.MarquesBrownlee-img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    border-radius: 30%;
+}
