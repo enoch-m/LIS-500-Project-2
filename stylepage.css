@@ -1,6 +1,7 @@
 /* Color Palette
 #F4FAFF - Alice Blue
 #DEE7E7 - Platunum
+#B7ADCF - Thistle
 #4F646F - Payne's gray
 #535657 - Davy's gray
 */
@@ -11,7 +12,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header, footer {
+html,
+body {
+    /*gets rid of border in perimeter */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
     text-align: center;
     margin: 0 auto;
     padding: 25px;
@@ -19,21 +30,19 @@ header, footer {
     color: #F4FAFF;
 }
 
-footer {
-    padding-top: 10px;
-    margin: 0;
+footer h2 {
+    font-size: 35px;
+    font-weight: 600;
 }
 
-html, body { /*gets rid of border in perimeter */
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header a {
+header a,
+footer a {
     padding: 10px;
-    color: #DEE7E7;
+    color: #F4FAFF;
+}
+
+a:hover {
+    color: #B7ADCF;
 }
 
 header h1 {
@@ -41,8 +50,14 @@ header h1 {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #DEE7E7;
     color: #535657;
+    font-size: 20px;
+}
+
+.video {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /* Splash Page
@@ -50,11 +65,10 @@ body {
 .Splash-index {
     font-size: 35px;
     text-align: center;
-    margin: 0px;
+    margin: 70px;
 }
 
 .Splash-img {
-    margin-top: 50px;
     border-radius: 35%;
 }
 
@@ -66,48 +80,29 @@ body {
     font-size: 25px;
 }
 
-/* About Enoch
+/* About Me
 ---------------------------- */
-#EnochName {
-    font-size: 25px;
-    margin: 20px;
-}
-
 .EnochProfile-img {
     width: 200px;
     border-radius: 30%;
 }
 
-.Enoch {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.Enoch p {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* About Alisa
----------------------------- */
-#AlisaName {
-    font-size: 40px;
-}
-
 .AlisaProfile-img {
-    margin-top: 10px;
     width: 275px;
     border-radius: 30%;
 }
 
-.Alisa {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 25px;
+#Name {
+    font-size: 40px;
 }
 
-.Alisa p {
+.About {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.About p {
     max-width: 600px;
     margin: 0 auto;
 }
@@ -131,6 +126,7 @@ body {
     float: left;
     min-height: 175px;
     padding-left: 15px;
+    padding-top: 15px;
 }
 
 .col-right {
@@ -144,13 +140,14 @@ body {
 ---------------------------- */
 .LannySmoot p,
 .MarquesBrownlee p {
-    font-size: 20px;
+    font-size: 25px;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .LannySmoot {
     text-align: center;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -163,13 +160,13 @@ body {
 
 .MarquesBrownlee {
     text-align: center;
+    margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .MarquesBrownlee-img {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    width: 200px;
+    margin: 20px;
+    width: 300px;
     border-radius: 30%;
 }
